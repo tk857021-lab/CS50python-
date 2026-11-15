@@ -1,37 +1,51 @@
 # CS50P: Introduction to Programming with Python
 
-My journey learning Python from scratch by following **CS50's Introduction to Programming with Python (CS50P)**, taught by **David J. Malan** at Harvard University.
+My journey through **Harvard's CS50P: Introduction to Programming with Python**, taught by **David J. Malan**. I completed the course, submitted every problem set, and built a final project: a **Rock, Paper, Scissors** game that runs in the terminal.
 
-This repository contains my solution for **every problem set** from the course, with one folder per week. At the end, I built a **Rock, Paper, Scissors** game that runs in the terminal.
+This repository contains my solutions for **every problem set** from the course, with one folder per week, plus my **final project**.
 
 ## About This Repo
 
 - **Goal:** Learn Python step by step and build a real project
 - **Course:** [CS50P: Introduction to Programming with Python](https://cs50.harvard.edu/python/) by Harvard CS50
 - **Language:** Python
+- **Tools:** pytest, Git, GitHub, VS Code
 - **Author:** [tk857021-lab](https://github.com/tk857021-lab)
 
 ## Project Structure
 
 ```
 cs50python-/
-├── week-0-functions-variables/
-├── week-1-conditionals/
-├── week-2-loops/
-├── week-3-exceptions/
-├── week-4-libraries/
-├── week-5-unit-tests/
-├── week-6-file-io/
-├── week-7-regular-expressions/
-├── week-8-oop/
-├── week-9-et-cetera/
+├── week-0/    Functions, Variables
+├── week-1/    Conditionals
+├── week-2/    Loops
+├── week-3/    Exceptions
+├── week-4/    Libraries
+├── week-5/    Unit Tests
+├── week-6/    File I/O
+├── week-7/    Regular Expressions
+├── week-8/    Object-Oriented Programming
+├── week-9/    Et Cetera
 ├── rock-paper-scissors/
 │   ├── project.py
 │   └── test_project.py
 └── README.md
 ```
 
-Each week folder holds my submitted solutions for that week's problem set. The `rock-paper-scissors` folder holds the final project.
+## Weekly Overview
+
+| Week | Topic | What I Learned |
+|------|-------|----------------|
+| 0 | Functions, Variables | Writing functions, using variables, and working with strings and numbers |
+| 1 | Conditionals | `if`, `elif`, `else`, boolean logic, and comparing values |
+| 2 | Loops | `for` and `while` loops, lists, and dictionaries |
+| 3 | Exceptions | Handling errors with `try` and `except`, and validating input |
+| 4 | Libraries | Using modules such as `random`, `sys`, and `requests`, and installing packages with `pip` |
+| 5 | Unit Tests | Testing code with `pytest` and `assert` |
+| 6 | File I/O | Reading and writing files, CSV files, and working with images |
+| 7 | Regular Expressions | Validating and cleaning text with the `re` module |
+| 8 | Object-Oriented Programming | Classes, objects, methods, and decorators |
+| 9 | Et Cetera | Sets, global variables, constants, type hints, and docstrings |
 
 ## Final Project: Rock, Paper, Scissors
 
@@ -69,14 +83,14 @@ Play again? (y/n):
    ```
 4. Run any problem set file, for example:
    ```bash
-   python week-0-functions-variables/indoor.py
+   python week-0/indoor.py
    ```
 5. To play the game:
    ```bash
    cd rock-paper-scissors
    python project.py
    ```
-6. To run the tests (if you wrote them):
+6. To run the tests:
    ```bash
    pip install pytest
    pytest test_project.py
@@ -84,25 +98,26 @@ Play again? (y/n):
 
 ## What I Learned
 
-- Functions, variables, and data types
-- Conditionals and loops
-- Exceptions and error handling
-- Using libraries and modules
+- Writing functions and organizing code
+- Conditionals, loops, and data structures
+- Handling errors and validating user input
+- Using libraries and installing packages
 - Writing unit tests with `pytest`
 - Reading and writing files
-- Regular expressions
+- Cleaning and validating text with regular expressions
 - Object-oriented programming
 - Building a full project from scratch
 
 ## Progress
 
-- [x] Started the course
-- [x] Finished all problem sets
-- [x] Built the Rock, Paper, Scissors project
+- [x] Completed all 10 weeks
+- [x] Submitted every problem set
+- [x] Finished the final project
+- [x] Earned the CS50P certificate
 
 ## Credits
 
-All credit for the course goes to **David J. Malan** and the **CS50 team at Harvard**. This repo is only my personal practice while learning.
+All credit for the course goes to **David J. Malan** and the **CS50 team at Harvard**. This repo is my personal work while learning.
 
 Course link: [CS50P](https://cs50.harvard.edu/python/)
 
@@ -114,4 +129,4 @@ Course link: [CS50P](https://cs50.harvard.edu/python/)
 
 ---
 
-⭐ If you are learning Python too, feel free to look around!
+⭐ If you are taking CS50P too, feel free to look around!
